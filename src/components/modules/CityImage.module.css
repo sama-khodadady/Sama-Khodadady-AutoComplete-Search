@@ -1,0 +1,30 @@
+:root {
+  --color-white: hsl(0, 0%, 100%);
+}
+
+.imageDiv {
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageDiv img {
+  width: 120px;
+  border-radius: 5px;
+}
+
+.imageDiv p {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: var(--color-white);
+}
+
+@media (max-width: 1024px) {
+  .imageDiv {
+    width: 100%;
+  }
+}
